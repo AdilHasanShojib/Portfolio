@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="icon"  href="assets/images/sajib DP.jpg" type="image/x-icon">
+
+  <title>About me</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: #262525;
+    color: aliceblue;
+}
+
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: azure;
+    position: relative;
+}
+
+
+.navlist li a::after,.navlist .active::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .5s;
+
+}
+.navlist li a:hover::after,.navlist .active::after{
+  
+    transform: scaleX(1);
+    ransform-origin: bottom left;
+
+
+}
+
+
+.btn-container{
+border: .1rem solid #5DB9EE;
+margin: auto !important;;
+font-size: 1.1rem;
+color: #fff;
+padding: .8rem 1.5rem;
+border-radius: .5rem;
+cursor: pointer;
+transition: .5s ease;
+
+}
+
+.btn-container:hover{
+    background: transparent;
+    color: #5DB9EE !important;
+
+}
+
+.about{
+  
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+    .experience-section {
+        max-width: 800px;
+        margin: auto;
+    }
+    h3 {
+        text-align: left;
+        color: #5DB9EE !important;
+        border-bottom: 2px solid #000;
+        padding-bottom: 5px;
+    }
+    .experience {
+        margin-bottom: 20px;
+    }
+    .title {
+        font-weight: bold;
+    }
+    .location-date {
+        display: flex;
+        justify-content: space-between;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .details {
+        margin-left: 20px;
+    }
+</style>  
+
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+ <!-- Add your content of header -->
+<header>
+  
+
+      <div class="navlist">
+
+        <ul class="nav navbar-nav">
+          <li><a href="./index.html" title="">Home</a></li>
+          <li><a href="./works.html" title="">Projects</a></li>
+          <li><a href="./about.html" title="">About</a></li>
+          <li><a href="./contact.html" title="">Contact</a></li>
+        </ul>
+
+
+      </div> 
+    
+</header>
+
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="section-container-spacer text-center">
+          <h3 class="about"></h3>
+
+          <p><a id="openPdfButton" href="" class="btn-container">Open My Resume</a></p>
+
+        
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+              
+                 <div class="experience-section">
+                  <h3>Education</h3>
+                <p><strong>United International University</strong><br>
+                  <strong>Bachelor of Science in Computer Science and Engineering</strong><br>
+                  <strong>CGPA:</strong>3.67<br>
+                  
+                  <strong>Major: </strong>Software Engineering <br>
+                  <strong>Final Year Project Topic:</strong> Grade Vision <br>
+                  
+                  <strong>Relevant Coursework: </strong>• Data Structures and Algorithms •Artificial Intelligence • Web Programming • Basic
+                  Graph Theory • Machine Learning • Software Architecture • Human-Computer Interaction • Software Testing
+                  and Quality Assurance.</p>
+
+                 </div>
+                
+
+                  
+                  <div class="experience-section">
+                    <h3>Experience</h3>
+                    <div class="experience">
+                        <div class="title">Undergraduate Teaching Assistant</div>
+                        <div class="location-date">
+                            <span>United International University</span>
+                            <span>Feb 2023 - Oct 2024</span>
+                        </div>
+                        <div class="details">
+                            <ul>
+                                <li>Assisted faculty in course instruction by conducting review sessions, grading assignments, and providing one-on-one academic support to students.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="title">Professional Experience: Trainee Full-stack Developer</div>
+                        <div class="location-date">
+                            <span>Center for Development of IT Professionals - CDIP</span>
+                            <span>Feb 2024 - Sept 2024</span>
+                        </div>
+                        <div class="details">
+                            <ul>
+                                <li>This JavaScript Full Stack Development Training Program trains participants in React, Node.js, and Next.js, preparing them for careers in web development.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+              </div>
+              
+              <div class="col-xs-12 col-md-6">
+                <div class="experience-section">
+                  <h3>Technical Skills & Interests</h3>
+                <ul>
+                  <li><b>Languages:</b>C, C++, C#, PHP, JavaScript,Java, HTML, CSS, SQL.</li>
+                  <li><b>Frameworks/Developer Tools:</b> NextJs, .NET, Burp Suite, Bootstrap, Git, LaTeX</li>
+                  <li><b>Databases:</b> MySQL, MongoDB.</li>
+                  <li><b>Soft Skills:</b> Problem-solving, Leadership, Teaching.</li>
+                  <li><b>Ui/Ux:</b>Figma</li> 
+                  <li><b>Project Management Tool:</b> Jira</li>
+                  <li><b>Areas of Interest:</b>Full-Stack Development, UI/UX Design, Web Security, Responsive Design,Quality Assurance (QA)</li>
+                </ul>
+                    
+                </div>
+                
+                
+              
+                <div class="experience-section">
+                  <h3>Achievements</h3>
+                <ul>
+                  <li><strong>Merit-based scholarships: </strong>100% - 3 times,50% - 3 times, 25% - 2 times<br>
+                  </li>
+                  
+                  <li>System Analysis and Design Lab Category of CSE Project Show, Fall 2022: 3rd Runner-up out of 200+ participants</li>
+                  
+                </ul>
+                    
+                </div>
+                
+                <div class="experience-section">
+                  <h3>Research</h3>
+                
+               <h4 style="color: #fff;">Conferences</h4>
+               <ul>
+            <li> <a href="https://ieeexplore.ieee.org/document/10441078" target="_blank"><i class="fa fa-external-link"></i></a> Data Segmentation with Improved K-Means Clustering Algorithm | IEEE 2023 26th International Conference on Computer and Information Technology | Dec 13-15, 2023</li>
+            <li> <a href="" target="_blank"><i class="fa fa-external-link"></i></a> Status: Accepted | Paper ID:1239 | High school students performance analyser using machine learning approch | IEEE 2024 27th International Conference on Computer and Information Technology</li>
+            
+               </ul>
+              
+                    
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Md. Shojib Talukder</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+
+<script>
+  document.getElementById('openPdfButton').addEventListener('click', function() {
+    // Set the path to your PDF file
+    var pdfUrl = 'MD__Shojib_Talukder.pdf'; // Replace with your actual PDF file path
+    
+    // Open the PDF in a new window/tab
+    window.open(pdfUrl, '_blank');
+  });
+</script>
+
+
+ <script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>

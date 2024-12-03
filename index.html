@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="icon"  href="assets/images/sajib DP.jpg" type="image/x-icon">
+
+  <title>Md. Shojib Talukder</title>  
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.portfolio-container{
+
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: azure;
+    position: relative;
+}
+
+.right-container{
+background:linear-gradient(45deg,#5DB9EE,#262525 70%);
+width: 30%;
+
+
+
+}
+
+.left-container{
+    background: #262525;
+    width: 70%;
+    padding-left: 3rem;
+    
+    
+    
+    }
+
+.right-container2{
+    background: #262525;
+    width: 40%;
+    
+    
+    
+    }
+    
+.left-container2{
+background: #262525;
+width: 60%;
+padding-left: 3rem;
+
+
+
+}
+
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left-container2,.right-container2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.icons .fa-brands{
+    color:#bbb;
+    font-size: 1.7rem;
+    
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+
+}
+
+.content{
+    margin-left: 4rem;
+}
+
+.intro {
+    font-size: 1.5rem;
+    color: white;
+
+}
+.intro span{
+    color: #5DB9EE;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: #5DB9EE;
+
+}
+
+.detail{
+    font-size: 1.1rem;
+    color: white;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.btn-container button{
+border: .1rem solid #5DB9EE;
+font-size: 1.1rem;
+padding: .8rem 1.5rem;
+border-radius: .5rem;
+cursor: pointer;
+transition: .5s ease;
+
+}
+
+button:nth-child(1){
+    background: #5DB9EE;
+    color: #262525;
+}
+button:nth-child(2){
+
+    background: transparent;
+    color: #5DB9EE;
+    margin-left: 2rem;
+}
+
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5DB9EE;
+
+}
+button:nth-child(2):hover{
+    background: #5DB9EE;
+    color: #262525;
+
+}
+.icons .fa-brands:hover{
+    
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+.circle:nth-child(1){
+  background:linear-gradient(90deg, transparent 50%,#262525 50%);
+  width: 38rem;
+
+}
+
+.circle:nth-child(2){
+  
+  width: 30rem;
+  background-image: url("./assets/images/sajib\ DP.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 3rem white,inset 0 0 1rem white;
+    
+}
+
+.navlist li a::after,.navlist .active::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform .5s;
+
+}
+.navlist li a:hover::after,.navlist .active::after{
+  
+    transform: scaleX(1);
+    ransform-origin: bottom left;
+
+}
+
+  .hero-full-container {
+  background-image: url('assets/images/foyezimg-removebg-previewBW.png');
+  background-size: 450px 450px; /* Adjust the width and height as needed */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  width: 100%; /* Adjust the width of the container as needed */
+  height: 100%; /* Adjust the height of the container as needed */
+}
+
+.text-content h1 {
+  font-size: 5rem; /* Default font size for larger screens */
+}
+
+@media (max-width: 768px) {
+  .text-content h1 {
+    font-size: 1.8rem; /* Smaller font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-content h1 {
+    font-size: 1.7rem; /* Smaller font size for mobile phones */
+  }
+}
+
+</style>
+
+</head>
+
+
+
+
+
+
+
+
+<div class="portfolio-container">
+
+  <ul class="navlist">
+    <li><a href="./index.html" title="">Home</a></li>
+    <li><a href="./works.html" title="">Projects</a></li>
+    <li><a href="./about.html" title="">About</a></li>
+    <li><a href="./contact.html" title="">Contact</a></li>
+  </ul>
+
+<div class="left-container">
+  <div class="icons">
+  <a href="https://www.facebook.com/shojib.talukder.adil" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.linkedin.com/in/md-shojib-talukder-8551112b3" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+  <a href="https://github.com/AdilHasanShojib" target="_blank"><i class="fa-brands fa-github"></i></a>
+  
+  </div>
+
+  <div class="content">
+      <p class="intro">Hi! I Am <span>Md. Shojib Talukder</span></p>
+
+      <h1>Software Developer.</h1>
+      <p class="detail">I am a Computer Science & Engineering undergraduate from United International University, driven by a passion for growth and learning. As a recent graduate, I am continually honing my problem-solving skills and enhancing my expertise in software development. This portfolio showcases a selection of my projects, highlighting my commitment to innovation and excellence in development.
+      </p>
+      <div class="btn-container">
+        <button onclick="window.location.href='./contact.html'" title="Contact me">Hire Me</button>
+        <button onclick="window.location.href='./works.html'" title="View my projects">View Project</button>
+    </div>
+  </div>
+  
+  
+  
+</div>
+
+<div class="right-container">
+
+
+</div>
+
+<div class="design">
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
