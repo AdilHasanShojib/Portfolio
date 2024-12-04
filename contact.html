@@ -24,8 +24,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background: #262525;
+   
     color: aliceblue;
+}
+body{
+  background: #262525 !important;
 }
 
 .navlist{
@@ -83,6 +86,7 @@
 border: .1rem solid #5DB9EE;
 margin: auto !important;;
 font-size: 1.1rem;
+background-color: #5DB9EE;
 color: #fff;
 padding: .8rem 1.5rem;
 border-radius: .5rem;
@@ -138,7 +142,7 @@ transition: .5s ease;
                 <div class="row">
                   <div class="col-md-7">
                     <div class="form-group">
-                      <input type="email" name="from_email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                      <input type="email" name="from_email"  class="form-control" id="email" placeholder="Enter Your Email" required>
                     </div>
                     <div class="form-group">
                       <input type="text" name="from_name" class="form-control" id="subject" placeholder="Enter Your name" required>
@@ -193,7 +197,7 @@ transition: .5s ease;
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>© Md. Shojib Talukder </p>
+        <p> </p>
       </div>
     </div>
   </div>
@@ -206,7 +210,7 @@ transition: .5s ease;
     form.addEventListener('submit', function (event) {
       event.preventDefault(); 
 
-      emailjs.sendForm('service_mo8izau', 'template_v9bt93o', this)
+      emailjs.sendForm('service_oxo2tdn', 'template_z4kltwk', this)
         .then(function (response) {
           console.log('SUCCESS!', response.status, response.text);
           alert('Your message has been sent successfully.');
@@ -221,7 +225,7 @@ transition: .5s ease;
 
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
-  emailjs.init('oa5eZSamW_XlSEQJJ'); 
+  emailjs.init('rPHYpEsCjHxYnlFUV'); 
 </script>
 
 <script type="text/javascript" src="./main.70a66962.js"></script>
