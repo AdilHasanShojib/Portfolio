@@ -1,228 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="description" name="description" />
+    <meta name="google" content="notranslate" />
+    <meta
+      content="Mashup templates have been developped by Orson.io team"
+      name="author"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+    <meta name="msapplication-tap-highlight" content="no" />
 
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
-  <link rel="icon" href="assets/images/sajib DP.jpg" type="image/x-icon">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-icon-180x180.png"
+    />
+    <link href="./assets/favicon.ico" rel="icon" />
+    <link rel="icon" href="assets/images/sajib DP.jpg" type="image/x-icon" />
 
-  <title>Contact</title>  
-  <style>
-     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+    <title>Contact</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-   
-    color: aliceblue;
-}
-body{
-  background: #262525 !important;
-}
+      * {
+        font-family: "Poppins", sans-serif;
+      }
 
-.navlist{
-    display: flex;
-    gap: 3.5rem;
-    
-    height: 15vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-}
+      body {
+        background: #262525 !important;
+        color: black;
+      }
 
-.navlist li {
-    list-style: none;
-}
+      .about {
+        text-align: center;
+        padding-top: 50px;
+      }
 
-.navlist a {
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 1rem;
-    color: azure;
-    position: relative;
-}
+      .btn-container {
+        border: 0.1rem solid #5db9ee;
+        margin: auto !important;
+        font-size: 1.1rem;
+        background-color: #5db9ee;
+        color: #fff;
+        padding: 0.8rem 1.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
 
+      .btn-container:hover {
+        background: transparent;
+        color: #5db9ee !important;
+      }
 
-.navlist li a::after,.navlist .active::after{
-    content: "";
-    position: absolute;
-    background: #fff;
-    width: 100%;
-    height: .1rem;
-    left: 0;
-    bottom: -5px;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform .5s;
+      @media screen and (max-width: 576px) {
+        .navlist a {
+          font-size: 0.7rem !important;
+        }
+      }
 
-}
-.navlist li a:hover::after,.navlist .active::after{
-  
-    transform: scaleX(1);
-    ransform-origin: bottom left;
+      @media screen and (min-width: 577px) and (max-width: 1200px) {
+        .navlist a {
+          font-size: 0.9rem !important;
+        }
+      }
+    </style>
 
+    <link href="./main.3f6952e4.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <div id="site-border-left"></div>
+    <div id="site-border-right"></div>
+    <div id="site-border-top"></div>
+    <div id="site-border-bottom"></div>
 
-}
+    <header>
+      <nav
+        class="navbar navbar-fixed-top navbar-default"
+        style="background-color: #262525"
+      >
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-.about{
-  
-  text-align: center;
-  padding-top: 50px;
-}
-
-.btn-container{
-border: .1rem solid #5DB9EE;
-margin: auto !important;;
-font-size: 1.1rem;
-background-color: #5DB9EE;
-color: #fff;
-padding: .8rem 1.5rem;
-border-radius: .5rem;
-cursor: pointer;
-transition: .5s ease;
-
-}
-
-.btn-container:hover{
-    background: transparent;
-    color: #5DB9EE !important;
-
-}
-
-  </style>
-
-  <link href="./main.3f6952e4.css" rel="stylesheet">
-</head>
-
-<body>
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-
-<header>
-
-  <div class="navlist">
-
-    <ul class="nav navbar-nav">
-      <li><a href="./index.html" title="">Home</a></li>
-      <li><a href="./works.html" title="">Projects</a></li>
-      <li><a href="./about.html" title="">About</a></li>
-      <li><a href="./contact.html" title="">Contact</a></li>
-    </ul>
-
-
-  </div> 
-
-</header>
-
-<div class="section-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="section-container-spacer text-center">
-          <h3 class="about"></h3>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav" style="background-color: #262525">
+              <li>
+                <a href="./index.html" title="" style="color: azure">Home</a>
+              </li>
+              <li>
+                <a href="./works.html" title="" style="color: azure"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a href="./about.html" title="" style="color: azure">About</a>
+              </li>
+              <li>
+                <a href="./contact.html" title="" style="color: azure"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        
+      </nav>
+    </header>
+
+    <div class="section-container">
+      <div class="container">
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-             <form id="contact-form" class="reveal-content">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="form-group">
-                      <input type="email" name="from_email"  class="form-control" id="email" placeholder="Enter Your Email" required>
+          <div class="col-xs-12">
+            <div class="section-container-spacer text-center">
+              <h3 class="about"></h3>
+            </div>
+
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <form id="contact-form" class="reveal-content">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          name="from_email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Enter Your Email"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="from_name"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Enter Your name"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          name="message"
+                          id="message"
+                          rows="5"
+                          placeholder="Enter your message"
+                          required
+                        ></textarea>
+                      </div>
+                      <button type="submit" class="btn-container">Send</button>
                     </div>
-                    <div class="form-group">
-                      <input type="text" name="from_name" class="form-control" id="subject" placeholder="Enter Your name" required>
+                    <div class="col-md-5 address-container">
+                      <ul class="list-unstyled">
+                        <li style="color: azure">
+                          <span class="fa-icon">
+                            <i
+                              class="fa fa-phone"
+                              aria-hidden="true"
+                              style="color: azure"
+                            ></i>
+                          </span>
+                          + 880 1797707376
+                        </li>
+
+                        <li style="color: azure">
+                          <span class="fa-icon">
+                            <i
+                              class="fa fa-at"
+                              aria-hidden="true"
+                              style="color: azure"
+                            ></i>
+                          </span>
+                          adilhasanshojib@gmail.com
+                        </li>
+                      </ul>
+                      <h3 style="color: #5db9ee">
+                        Follow me on social networks
+                      </h3>
+                      <a
+                        href="https://www.facebook.com/shojib.talukder.adil"
+                        title=""
+                        class="fa-icon"
+                      >
+                        <i class="fa fa-facebook" style="color: azure"></i>
+                      </a>
+                      <a
+                        href="https://github.com/AdilHasanShojib"
+                        title=""
+                        class="fa-icon"
+                      >
+                        <i class="fa fa-github" style="color: azure"></i>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/md-shojib-talukder-8551112b3"
+                        title=""
+                        class="fa-icon"
+                      >
+                        <i class="fa fa-linkedin" style="color: azure"></i>
+                      </a>
                     </div>
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter your message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-container">Send</button>
                   </div>
-                  <div class="col-md-5 address-container">
-                    <ul class="list-unstyled">
-                      <li>
-                        <span class="fa-icon">
-                          <i class="fa fa-phone" aria-hidden="true"></i>
-                        </span>
-                        + 880 1797707376
-                      </li>
-                     
-                      <li>
-                        <span class="fa-icon">
-                          <i class="fa fa-at" aria-hidden="true"></i>
-                        </span>
-                        adilhasanshojib@gmail.com
-                      </li>
-                    </ul>
-                    <h3 style="color:#5DB9EE;">Follow me on social networks</h3>
-                    <a href="https://www.facebook.com/shojib.talukder.adil" title="" class="fa-icon">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="https://github.com/AdilHasanShojib" title="" class="fa-icon">
-                      <i class="fa fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/md-shojib-talukder-8551112b3" title="" class="fa-icon">
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<footer class="footer-container text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p> </p>
+    <footer class="footer-container text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p></p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById('contact-form');
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contact-form");
 
-    form.addEventListener('submit', function (event) {
-      event.preventDefault(); 
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
 
-      emailjs.sendForm('service_oxo2tdn', 'template_z4kltwk', this)
-        .then(function (response) {
-          console.log('SUCCESS!', response.status, response.text);
-          alert('Your message has been sent successfully.');
-          form.reset(); 
-        }, function (error) {
-          console.log('FAILED...', error);
-          alert('There was an error sending your message. Please try again later.');
+          emailjs.sendForm("service_oxo2tdn", "template_z4kltwk", this).then(
+            function (response) {
+              console.log("SUCCESS!", response.status, response.text);
+              alert("Your message has been sent successfully.");
+              form.reset();
+            },
+            function (error) {
+              console.log("FAILED...", error);
+              alert(
+                "There was an error sending your message. Please try again later."
+              );
+            }
+          );
         });
-    });
-  });
-</script>
+      });
+    </script>
 
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-  emailjs.init('rPHYpEsCjHxYnlFUV'); 
-</script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init("rPHYpEsCjHxYnlFUV");
+    </script>
 
-<script type="text/javascript" src="./main.70a66962.js"></script>
-</body>
+    <script type="text/javascript" src="./main.70a66962.js"></script>
+  </body>
 </html>
