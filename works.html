@@ -18,21 +18,20 @@
 
   <title>Projects</title> 
   <style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    background: #262525 ;
-    color: aliceblue;
-}
+  * {
+        font-family: "Poppins", sans-serif;
+ 
+      }
 
-body{
+
+body {
   background: #262525 !important;
+  color: black;
 }
+
 .navlist{
     display: flex;
     gap: 3.5rem;
@@ -82,8 +81,6 @@ body{
   
   text-align: center;
   padding-top: 50px;
-  color:  #5DB9EE !important;
-  font-size: 20px !important;
 }
 
 .btn-container{
@@ -107,40 +104,52 @@ transition: .5s ease;
 
 
 
+
+
+
   </style> 
 
 <link href="./main.3f6952e4.css" rel="stylesheet"></head>
 
 <body class="">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
- <!-- Add your content of header -->
-<header>
-
-  <div class="navlist">
-
-    <ul class="nav navbar-nav">
-      <li><a href="./index.html" title="">Home</a></li>
-      <li><a href="./works.html" title="">Projects</a></li>
-      <li><a href="./about.html" title="">About</a></li>
-      <li><a href="./contact.html" title="">Contact</a></li>
-    </ul>
-
-
-  </div> 
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+ 
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-default" style="background-color: #262525;">
+      <div class="container">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
   
-</header>
-
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <ul class="nav navbar-nav">
+              <li><a href="./index.html" title="" style="color: azure">Home</a></li>
+              <li><a href="./works.html" title="" style="color: azure">Projects</a></li>
+              <li><a href="./about.html" title="" style="color: azure">About</a></li>
+              <li><a href="./contact.html" title="" style="color: azure">Contact</a></li>
+            </ul>
+          </ul>
+  
+  
+        </div> 
+      </div>
+    </nav>
+  </header>
 <div class="section-container">
   <div class="container">
     <div class="row">
       
       <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
         <div class="text-center">
-          <h3 class="about">Projects</h3>
-          <p>I specialize in leading and developing diverse software projects, ranging from web apps for movie enthusiasts. Additionally, I've contributed to the Food delivery app, University Talent showcase, course management systems, and Java-based FIFA World Cup Management system applications, focusing on optimizing functionality and user interaction across all projects.</p>
+          <h3 class="about" style="color:  #5DB9EE;">Projects</h3>
+          <p style="color:  #fff;" >I specialize in leading and developing diverse software projects, ranging from web apps for movie enthusiasts. Additionally, I've contributed to the Food delivery app, University Talent showcase, course management systems, and Java-based FIFA World Cup Management system applications, focusing on optimizing functionality and user interaction across all projects.</p>
         </div>
       </div>
 
@@ -157,12 +166,12 @@ transition: .5s ease;
                       <a href="./work.html" title="" class="black-image-project-hover">
                         <img src="./assets/images/CINEPHILES1.jpg" alt="" class="img-responsive">
                       </a>
-                      <div class="card-container card-container-lg">
-                        <h4 style="color:  #fff;">001/005</h4>
+                      <div class="card-container card-container-lg" >
+                        <h4 style="color:  black;">001/005</h4>
                         <h3 style="color:  #5DB9EE;">Cinephiles</h3>
-                        <p>Web app for movie enthusiasts with exploration, lists, watch parties, and a vibrant community.
+                        <p style="color:  #fff; background-color: #262525;" >Web app for movie enthusiasts with exploration, lists, watch parties, and a vibrant community.
                         </p>
-                        <a href="./work.html" title="" class="btn-container">Discover</a>
+                        <a  href="./work.html" title="" class="btn-container">Discover</a>
                       </div>
                     </div>
 
@@ -174,10 +183,10 @@ transition: .5s ease;
                         <img src="./assets/images/food1.jpg" alt="" class="img-responsive">
                       </a>
                       <div class="card-container card-container-lg">
-                        <h4 style="color:  #fff;">002/005</h4>
+                        <h4 style="color:  black;">002/005</h4>
                         <h3 style="color:  #5DB9EE;">SwiftEats</h3>
                         
-                        <p>SwiftEats is an intuitive and efficient food delivery platform.</p>
+                        <p style="color:  #fff; background-color: #262525;">SwiftEats is an intuitive and efficient food delivery platform.</p>
                         <a href="./work1.html" title="" class="btn-container">Discover</a>
                       </div>
                     </div>
@@ -187,9 +196,9 @@ transition: .5s ease;
                         <img style="width:100%;height:135px;" src="./assets/images/talent6.jpg" alt="" class="img-responsive">
                       </a>
                       <div class="card-container card-container-lg">
-                        <h4 style="color:  #fff;">003/005</h4>
+                        <h4 style="color:  black;">003/005</h4>
                         <h3 style="color:  #5DB9EE;">University Talent Showcase</h3>
-                        <p>A dynamic web-based project designed to empower students, faculty, and administrators in showcasing, evaluating, and managing talents across the university</p>
+                        <p style="color:  #fff; background-color: #262525;">A dynamic web-based project designed to empower students, faculty, and administrators in showcasing, evaluating, and managing talents across the university</p>
                         <a href="work2.html" title="" class="btn-container">Discover</a>
                       </div>
                     </div>
@@ -205,9 +214,9 @@ transition: .5s ease;
                         <img src="./assets/images/courseman.jpeg" alt="Image" class="img-responsive">
                       </a>
                       <div class="card-container">
-                        <h4 style="color:  #fff;">004/005</h4>
+                        <h4 style="color:  black;">004/005</h4>
                         <h3 style="color:  #5DB9EE;">Course Management System</h3>
-                        <p>A website for students to select courses, personalized recommendations, and friend-based course matching.
+                        <p style="color:  #fff; background-color: #262525;">A website for students to select courses, personalized recommendations, and friend-based course matching.
                         </p>
                         <a href="work4.html" class="btn-container">Discover</a>
                       </div>
@@ -218,9 +227,9 @@ transition: .5s ease;
                         <img src="./assets/images/FIFA22.jpg" alt="Image" class="img-responsive">
                       </a>
                       <div class="card-container">
-                        <h4 style="color:  #fff;">005/005</h4>
+                        <h4 style="color:  black;">005/005</h4>
                         <h3 style="color:  #5DB9EE;">FIFA World Cup Management System</h3>
-                        <p>It is an Advanced Object Oriented Programming Project based on real life key features</p>
+                        <p style="color:  #fff; background-color: #262525;">It is an Advanced Object Oriented Programming Project based on real life key features</p>
                         <a href="work5.html" class="btn-container">Discover</a>
                       </div>
                     </div>
@@ -281,3 +290,4 @@ transition: .5s ease;
 --> <script type="text/javascript" src="./main.70a66962.js"></script></body>
 
 </html>
+
